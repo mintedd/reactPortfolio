@@ -1,14 +1,12 @@
-// import logo from './logo.svg';
-import './App.css';
-// import Portfolio from './components/Portfolio '
-import Navbar from './components/Navbar'
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
 
 function App() {
-  return (
-    <div className="container">
-      <Navbar />
-    </div>
-  );
-}
+    return (
+        <div className="container-fluid">
+            <PortfolioContainer />
+        </div>
+    )
+};
 
 export default App;
